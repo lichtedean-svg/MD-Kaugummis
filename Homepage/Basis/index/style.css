@@ -1,0 +1,28 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2023/05/14/09/39/circle-7992340_1280.jpg");
+  background-size: cover;
+  
+}
+.überschrift{
+  background-color: rgb(254, 213, 164);
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.einführung{
+  background-color: rgb(52, 79, 255);
+  border-radius:15px 15px 15px 15px;
+  margin:10px;
+  padding:10px 10px 10px 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+a{
+  background-color: rgb(254, 213, 164);
+  margin:20px;
+  text-align: center;
+  border-radius:15px 15px 15px 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

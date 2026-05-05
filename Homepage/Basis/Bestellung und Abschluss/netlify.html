@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bestellung</title>
+  <link rel="stylesheet" href="bestellung.css">
+</head>
+<body>
+  <form name="contact" method="POST" data-netlify="true" action="/success">
+  <input type="hidden" name="form-name" value="contact" />
+
+  <p>
+    <label>Dein Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Stückanzahl <input type="number" name="Stückanzahl" min="1" /></label>
+  </p>
+  <p>
+    <label>Wie viel Geld bietest du? <input type="number" name="Geld" step="0.01" /></label>
+  </p>
+  <p>
+    <label>Bist du ein Stammkunde? <input type="checkbox" name="stammkunde" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+</body>
+</html>

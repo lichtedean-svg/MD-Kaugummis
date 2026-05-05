@@ -1,0 +1,50 @@
+/*body{
+background-image: url("https://cdn.pixabay.com/photo/2018/09/12/08/05/chewing-gum-3671507_1280.jpg");
+    background-size: cover;*/  /* AUßER BETRIEB*/
+body  {
+        background-image: url("https://cdn.pixabay.com/photo/2019/09/07/17/41/site-4459374_1280.png");
+        background-position: center;
+        background-attachment: fixed;
+}
+ tr,td,th{
+    background-color: white;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+h1{
+    background-color:lightgray;
+    margin:10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.Ideen{
+  
+    position: fixed;        /* bleibt an der Seite */
+    right: 0;              /* ganz rechts */
+    top: 50%;              /* mittig nach unten */
+    transform: translateY(-50%);
+    
+    background-color: rgb(255, 255, 255); /* Hintergrundfarbe */
+    color: rgb(0, 0, 0);          /* Textfarbe */
+    
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+a{
+    background-color: grey ;
+    margin:20px;
+    text-align: center;
+    border-radius:15px 15px 15px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
